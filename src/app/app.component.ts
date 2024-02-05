@@ -21,6 +21,11 @@ export class AppComponent {
       url: '/cities', 
       icon: 'location' 
     },
+    { 
+      title: 'Pokemon', 
+      url: '/pokemon', 
+      icon: 'sparkles' 
+    },
   ];
   constructor() {}
 }

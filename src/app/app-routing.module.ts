@@ -18,6 +18,10 @@ const routes: Routes = [
   {
     path: 'cities',
     loadChildren: () => import('./cities/cities.module').then( m => m.CitiesPageModule)
+  },
+  {
+    path: 'pokemon',
+    loadChildren: () => import('./pokemon/pokemon.module').then( m => m.PokemonPageModule)
   }
 ];
 

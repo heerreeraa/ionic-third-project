@@ -104,10 +104,15 @@ ion-note {
   color: var(--ion-color-medium-shade);
 }
 
+.sidebar-icon {
+  --color: var(--ion-color-mycolor-contrast);
+
+}
+
 ion-item.selected {
   --color: var(--ion-color-mycolor);
 }
 ion-item {
-  --color: var(--ion-color-mycolor);
+  --color: var(--ion-color-mycolor-contrast);
 }
 
