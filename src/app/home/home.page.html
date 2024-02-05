@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div id="button-box" size="1">
+    <ion-button [routerLink]="['/characters']" class="btn">
+      <ion-icon slot="start" icon="people"></ion-icon>
+      Go to characters
+    </ion-button>
+  </div>
+
+  <hr>
+  <ion-grid class="grid">
+    <ion-row class="row">
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col"> 
+        <div class="texto">texto1</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col">
+        <div class="texto">texto2</div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="row">
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="9" class="col">
+        <div class="texto">texto3</div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="3" class="col">
+        <div class="texto">texto4</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+

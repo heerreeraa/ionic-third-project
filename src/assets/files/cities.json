@@ -1,0 +1,20 @@
+{
+"data": [
+    {
+      "imgUrl": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2023/01/24/istock-1297090032.jpeg", 
+      "name": "Madrid"
+    },
+    {
+      "imgUrl": "https://media.traveler.es/photos/63838947050e0f92cd80c982/16:9/w_2560%2Cc_limit/GettyImages-1392907424.jpg", 
+      "name": "Barcelona"
+    },
+    {
+      "imgUrl": "https://www.spain.info/.content/imagenes/cabeceras-grandes/valencia/ciudad-artes-ciencias-valencia-c-luca-bravo-u-UyUjtbu5vj4.jpg", 
+      "name": "Valencia"
+    },
+    {
+      "imgUrl": "https://img2.rtve.es/v/6864365?w=1600&preview=1681890137269.jpg", 
+      "name": "Sevilla"
+    }
+  ]
+}

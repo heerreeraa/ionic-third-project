@@ -1,0 +1,19 @@
+ion-toolbar {
+    background-color: var(--ion-color-mycolor);
+}
+
+.btn {
+  background-color: var(--ion-color-mycolor-shade);
+  color: var(--ion-color-mycolor-contrast);
+  padding: 15px 25px 15px 25px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+}

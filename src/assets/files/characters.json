@@ -1,0 +1,28 @@
+{
+"data": [
+    {
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsez4FazZ9ilHt0s7nuor_mMFqF0NfKbUIA&usqp=CAU", 
+      "name": "Takumi Fujiwara",
+      "car": "Toyota Sprinter Trueno AE86",
+      "description": "The main character of the Initial D series and the son of legendary street racer Bunta Fujiwara."
+    },
+    {
+      "imgUrl": "https://i.redd.it/dim66oe1mjw51.png", 
+      "name": "Ryosuke Takahashi",
+      "car": "Mazda FC3S RX-7",
+      "description": "is the founder, and leader of both the Akagi RedSuns and Project D. Famously nicknamed Akagis White Comet"
+    },
+    {
+      "imgUrl": "https://pm1.aminoapps.com/6742/be770aef7171d8dffa2818fa8fdca85fd124aebbv2_00.jpg", 
+      "name": "Keisuke Takahashi",
+      "car": "Mazda FD3S RX-7 Type R",
+      "description": "An ex-bosozoku gang member, he was introduced to street racing by his brother Ryosuke and joined his team, the Akagi RedSuns."
+    },
+    {
+      "imgUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2820-QtJ4afUnTjzw.png", 
+      "name": "Bunta Fujiwara",
+      "car": "Subaru Impreza WRX STi Type R Version V",
+      "description": "Bunta was the original driver of the mysterious 'white ghost of Akina' AE86 Sprinter Trueno that holds the record of the fastest downhill time at Akina."
+    }
+  ]
+}

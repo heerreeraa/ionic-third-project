@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Characters</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div class="container">
+    <button (click)="goToHome()" class="btn">Go to home</button>
+
+    <ion-list *ngIf="permission">
+      <ion-list-header>
+        Characters
+      </ion-list-header>
+
+      <ion-item *ngFor="let character of characters">
+        <ion-avatar slot="start">
+          <img src="{{ character.imgUrl }}" alt="">
+        </ion-avatar>
+        <ion-label>
+          <h2>{{ character.name }}</h2>
+          <h3> {{ character.description }} </h3>
+          <p> {{ character.car }} </p>
+        </ion-label>
+        <ion-avatar slot="end">
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-avatar>
+      </ion-item>
+    </ion-list>
+
+    <div>
+      <ion-label *ngIf="!permission">You have not permission to see the Characters!</ion-label>
+    </div>
+
+  </div>
+
+</ion-content>
+
