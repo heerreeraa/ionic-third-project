@@ -8,6 +8,7 @@ import { CarsService } from './services/cars-service.service';
 })
 export class CarsPage implements OnInit {
 
+  token: string = localStorage.getItem('token');
   cars: any = [];
 
   constructor(
@@ -15,6 +16,9 @@ export class CarsPage implements OnInit {
     ) { }
 
   ngOnInit() {
+    console.log("token", this.token);
+    // localStorage.removeItem('token');
+    localStorage.clear;
     this.carsService.getCars().subscribe(res => {
       // console.log("res:", res);
       this.cars = res;

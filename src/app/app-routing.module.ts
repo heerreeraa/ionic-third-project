@@ -24,10 +24,6 @@ const routes: Routes = [
     loadChildren: () => import('./car/car.module').then( m => m.CarPageModule)
   },
   {
-    path: 'pokemon',
-    loadChildren: () => import('./pokemon/pokemon.module').then( m => m.PokemonPageModule)
-  },
-  {
     path: 'login',
     loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
   },

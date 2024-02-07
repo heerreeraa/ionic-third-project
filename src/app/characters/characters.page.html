@@ -15,6 +15,12 @@
   <div class="container">
     <button (click)="goToHome()" class="btn">Go to home</button>
 
+    <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+      <ion-refresher-content
+        refreshingSpinner="bubbles"
+      ></ion-refresher-content>
+    </ion-refresher>
+
     <ion-list *ngIf="permission">
       <ion-list-header>
         Characters

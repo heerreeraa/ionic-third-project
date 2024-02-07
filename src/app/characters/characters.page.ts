@@ -55,4 +55,14 @@ export class CharactersPage implements OnInit {
     }
   }
 
+  doRefresh(event) {
+    console.log("doRefresh function enter");
+    this.getCharacters();
+    setTimeout(() => {
+      console.log("doRefresh timeout launched");
+
+      event.target.complete();
+    }, 2000);
+  }
+
 }

@@ -21,6 +21,11 @@ export class AppComponent {
       url: '/cars', 
       icon: 'car-sport' 
     },
+    { 
+      title: 'Login', 
+      url: '/login', 
+      icon: 'log-in' 
+    },
     // { 
     //   title: 'Pokemon', 
     //   url: '/pokemon', 
