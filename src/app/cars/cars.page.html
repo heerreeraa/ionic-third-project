@@ -3,17 +3,17 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>cities</ion-title>
+    <ion-title>Cars</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-row>
-    <ion-col sizeLg="6" sizeMd="6" sizeXs="12" *ngFor="let city of cities" class="city-col">
-      <ion-card class="city-card" (click)="showAlert2()">
-        <img src="{{ city.imgUrl }}">
+    <ion-col sizeLg="6" sizeMd="6" sizeXs="6" *ngFor="let car of cars" class="car-col">
+      <ion-card class="car-card" (click)="showAlert2()" [routerLink]="['/car', car.id]">
+        <img src="{{ car.imgUrl }}" class="card-image">
         <div class="card-title">
-          <h3>{{ city.name }}</h3>
+          <p>{{ car.brand }} {{ car.model }}</p>
         </div>
       </ion-card>
     </ion-col>

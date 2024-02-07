@@ -16,13 +16,21 @@ const routes: Routes = [
     loadChildren: () => import('./characters/characters.module').then( m => m.CharactersPageModule)
   },
   {
-    path: 'cities',
-    loadChildren: () => import('./cities/cities.module').then( m => m.CitiesPageModule)
+    path: 'cars',
+    loadChildren: () => import('./cars/cars.module').then( m => m.CarsPageModule)
+  },
+  {
+    path: 'car/:id',
+    loadChildren: () => import('./car/car.module').then( m => m.CarPageModule)
   },
   {
     path: 'pokemon',
     loadChildren: () => import('./pokemon/pokemon.module').then( m => m.PokemonPageModule)
-  }
+  },
+  {
+    path: 'login',
+    loadChildren: () => import('./login/login.module').then( m => m.LoginPageModule)
+  },
 ];
 
 @NgModule({

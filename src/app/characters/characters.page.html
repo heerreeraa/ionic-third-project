@@ -5,6 +5,10 @@
     </ion-buttons>
     <ion-title>Characters</ion-title>
   </ion-toolbar>
+
+  <ion-toolbar class="search-bar-toolbar">
+    <ion-searchbar placeholder="Buscar" animated (ionInput)="searchCharacter($event)"></ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
@@ -16,14 +20,14 @@
         Characters
       </ion-list-header>
 
-      <ion-item *ngFor="let character of characters">
+      <ion-item *ngFor="let character of searchedCharacter">
         <ion-avatar slot="start">
           <img src="{{ character.imgUrl }}" alt="">
         </ion-avatar>
         <ion-label>
           <h2>{{ character.name }}</h2>
           <h3> {{ character.description }} </h3>
-          <p> {{ character.car }} </p>
+          <a class="car-link" [routerLink]="['/car', character.carId]"> {{ character.car }} </a>
         </ion-label>
         <ion-avatar slot="end">
           <ion-icon name="search-outline"></ion-icon>

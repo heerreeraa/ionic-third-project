@@ -1,3 +1,16 @@
 ion-toolbarr {
     background-color: var(--ion-color-mycolor);
 }
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-box {
+    width: 40%;
+}
+
+.card {
+    width: 46%;
+}

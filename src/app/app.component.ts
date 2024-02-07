@@ -17,15 +17,15 @@ export class AppComponent {
       icon: 'people' 
     },
     { 
-      title: 'Cities', 
-      url: '/cities', 
-      icon: 'location' 
+      title: 'Cars', 
+      url: '/cars', 
+      icon: 'car-sport' 
     },
-    { 
-      title: 'Pokemon', 
-      url: '/pokemon', 
-      icon: 'sparkles' 
-    },
+    // { 
+    //   title: 'Pokemon', 
+    //   url: '/pokemon', 
+    //   icon: 'sparkles' 
+    // },
   ];
   constructor() {}
 }

@@ -17,6 +17,17 @@ ion-toolbarr {
   margin-top: 1rem;
 }
 
+.col-content {
+  object-fit: cover;
+  height: 11rem;
+  width: 100%;
+}
+
+.logo-img {
+  width: 20rem;
+  height: 7rem;
+}
+
 .btn {
   --background: var(--ion-color-mycolor-shade);
   --background-hover: var(	--ion-color-mycolor-tint);

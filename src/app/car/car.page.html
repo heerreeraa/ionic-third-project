@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="mycolor">
+    <ion-title >Selected Car</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button icon="chevron-back"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <ion-toolbar class="search-bar-toolbar">       
+    <h3>{{ brand }} {{ model }}</h3>
+  </ion-toolbar>
+
+    
+</ion-header>
+
+<ion-content [fullscreen]="true">
+    <div class="card-title">
+      <img src="{{ imgUrl }}" alt="">
+    </div>
+</ion-content>

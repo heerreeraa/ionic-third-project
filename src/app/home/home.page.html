@@ -7,29 +7,68 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <div id="button-box" size="1">
-    <ion-button [routerLink]="['/characters']" class="btn">
-      <ion-icon slot="start" icon="people"></ion-icon>
-      Go to characters
-    </ion-button>
+  <div id="button-box" class="box-logo">
+    <img 
+      class="logo-img"
+      [routerLink]="['/characters']" 
+      src="https://media.vgm.io/products/61/1316/1316-1593936067.png"
+    >
   </div>
 
   <hr>
   <ion-grid class="grid">
     <ion-row class="row">
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col"> 
-        <div class="texto">texto1</div>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="8" class="col"> 
+        <div >
+          <img 
+            class="col-content" 
+            src="https://media.vandal.net/m/10-2023/20/2023102020414823_11.jpg"
+          >
+        </div>
       </ion-col>
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col">
-        <div class="texto">texto2</div>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="4" class="col">
+        <div >
+          <img 
+            class="col-content" 
+            src="https://dthezntil550i.cloudfront.net/i3/latest/i32105280437433680020708775/1280_960/dcfdea9d-3397-4ad5-8d1e-a3f557a4d913.png"
+          >
+        </div>
       </ion-col>
     </ion-row>
+
     <ion-row class="row">
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="9" class="col">
-        <div class="texto">texto3</div>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col">
+        <div >
+          <img 
+            class="col-content" 
+            src="https://i.pinimg.com/originals/63/03/9a/63039a80158f3f2ccdfd881596aed396.jpg">
+        </div>
       </ion-col>
-      <ion-col sizeLg="4" sizeMd="4" sizeXs="3" class="col">
-        <div class="texto">texto4</div>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="6" class="col">
+        <div >
+          <img 
+            class="col-content" 
+            src="https://i.pinimg.com/originals/68/c0/de/68c0de05df5555a9d96b3bd0027772eb.png">
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="row">
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="3.5" class="col">
+        <div >
+          <img 
+            class="col-content" 
+            src="https://ru.myanimeshelf.com//upload/dynamic/2012-10/01/1312.jpg"
+          >
+        </div>
+      </ion-col>
+      <ion-col sizeLg="4" sizeMd="4" sizeXs="8.5" class="col">
+        <div >
+          <img 
+            class="col-content" 
+            src="https://e0.pxfuel.com/wallpapers/472/609/desktop-wallpaper-project-d-fd3s-initial-d-initial-d-fd-vs-nsx.jpg"
+          >
+        </div>
       </ion-col>
     </ion-row>
   </ion-grid>

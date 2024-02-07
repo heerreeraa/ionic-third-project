@@ -2,6 +2,11 @@ ion-toolbar {
     background-color: var(--ion-color-mycolor);
 }
 
+.search-bar-toolbar {
+  padding-top: 1rem;
+  background-color: var(--ion-color-mycolor-shade);
+}
+
 .btn {
   background-color: var(--ion-color-mycolor-shade);
   color: var(--ion-color-mycolor-contrast);
@@ -9,6 +14,7 @@ ion-toolbar {
   border-radius: 10px;
   font-size: 15px;
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -16,4 +22,15 @@ ion-toolbar {
   position: absolute;
   left: 20px;
   right: 20px;
+}
+
+.car-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+  color: var(--ion-color-mycolor-text-light);
+}
+
+.car-link:hover {
+  text-decoration: underline;
 }

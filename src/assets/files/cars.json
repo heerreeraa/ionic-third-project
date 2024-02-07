@@ -1,0 +1,53 @@
+{
+"data": [
+    {
+      "id": 1,
+      "imgUrl": "https://argentinajdm.files.wordpress.com/2018/01/foto-27.jpg", 
+      "brand": "Toyota",
+      "model": "Sprinter Trueno AE86"
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://files.cults3d.com/uploaders/25587191/illustration-file/20175a83-fe57-4712-a531-b68ea09d23b0/maxresdefault.jpg", 
+      "brand": "Mazda",
+      "model": "FC3S RX-7"
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://i.pinimg.com/originals/99/f4/9a/99f49a5bd2eeab4d71b27702e7bd2e12.jpg", 
+      "brand": "Mazda",
+      "model": "FD3S RX-7 Type R"
+    },
+    {
+      "id": 4,
+      "imgUrl": "https://hips.hearstapps.com/hmg-prod/images/subaru-wrx-sti-type-r-subasta-1640893491.jpg", 
+      "brand": "Subaru",
+      "model": "Impreza WRX STi"
+    },
+
+    {
+      "id": 5,
+      "imgUrl": "https://espirituracer.com/archivos/2020/08/toyota-corolla-levin-gt-apex-ae86-2.jpg", 
+      "brand": "Toyota",
+      "model": "Sprinter Levin AE85"
+    },
+    {
+      "id": 6,
+      "imgUrl": "https://i.pinimg.com/originals/88/b2/ba/88b2ba4823b8be1846f2f534b25e11e5.jpg", 
+      "brand": "Nissan",
+      "model": "S13 Silvia"
+    },
+    {
+      "id": 7,
+      "imgUrl": "https://kingsjdm.com/wp-content/uploads/2018/02/93CivicHatch2.jpg", 
+      "brand": "Honda",
+      "model": "Honda Civic EG6"
+    },
+    {
+      "id": 8,
+      "imgUrl": "https://i.pinimg.com/736x/c5/e8/a7/c5e8a7f582596a3a4baa7b97ad5a14fe.jpg", 
+      "brand": "Nissan",
+      "model": "240sx Silvia (Sileighty)"
+    }
+  ]
+}

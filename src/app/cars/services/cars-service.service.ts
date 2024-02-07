@@ -1,13 +1,13 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { AlertController, ToastController } from '@ionic/angular';
-import { Observable, map } from 'rxjs';
+import { map } from 'rxjs';
 
 
 @Injectable({
   providedIn: 'root'
 })
-export class PokemonService {
+export class CarsService {
 
   constructor(
     private alertController: AlertController,
@@ -15,15 +15,20 @@ export class PokemonService {
     private http: HttpClient,
   ) { }
 
-  getPokemons(): Observable<any> {
-    return this.http.get('https://pokeapi.co/api/v2/ability/?limit=20&offset=20');
+  getCars() {
+    return this.http
+    .get("assets/files/cars.json")
+    .pipe(
+      map((res: any) => {
+        return res.data;
+      })
+    )
   }
-  
 
   async presentToast1() {
     const toast = await this.toastController.create({
-      message: 'Ciudad seleccionada',
-      duration: 2000,
+      message: 'Selected car',
+      duration: 1500,
       position: "bottom"
     })
     toast.present()

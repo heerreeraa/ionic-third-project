@@ -11,21 +11,9 @@ import { map } from 'rxjs/operators';
 export class CharactersPage implements OnInit {
 
   characters: any = [];
+  searchedCharacter: any;
 
   permission: boolean; 
-
-  public appPages = [
-    { 
-      title: 'Home', 
-      url: '/home', 
-      icon: 'home' 
-    },
-    { 
-      title: 'Characters', 
-      url: '/characters', 
-      icon: 'people' 
-    },
-  ];
 
   constructor(
     private router: Router, 
@@ -35,8 +23,9 @@ export class CharactersPage implements OnInit {
   ngOnInit() {
     this.permission = true;
     this.getCharacters().subscribe(res => {
-      console.log("res:", res);
+      // console.log("res:", res);
       this.characters = res;
+      this.searchedCharacter = this.characters;
     })
   }
 
@@ -52,6 +41,18 @@ export class CharactersPage implements OnInit {
         return res.data;
       })
     )
+  }
+
+  // Funcion Buscar
+  searchCharacter(event) {
+    console.log("Funcion Bucar activada!");
+    
+    const text = event.target.value;
+    if(text && text.trim() != ''){
+      this.searchedCharacter = this.searchedCharacter.filter((character : any) => {
+        return (character.name.toLowerCase().indexOf(text.toLowerCase()) > -1);
+      })
+    }
   }
 
 }

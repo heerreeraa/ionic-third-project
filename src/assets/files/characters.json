@@ -1,28 +1,61 @@
 {
 "data": [
     {
+      "carId": 1,
       "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUsez4FazZ9ilHt0s7nuor_mMFqF0NfKbUIA&usqp=CAU", 
       "name": "Takumi Fujiwara",
       "car": "Toyota Sprinter Trueno AE86",
       "description": "The main character of the Initial D series and the son of legendary street racer Bunta Fujiwara."
     },
     {
+      "carId": 2,
       "imgUrl": "https://i.redd.it/dim66oe1mjw51.png", 
       "name": "Ryosuke Takahashi",
       "car": "Mazda FC3S RX-7",
       "description": "is the founder, and leader of both the Akagi RedSuns and Project D. Famously nicknamed Akagis White Comet"
     },
     {
+      "carId": 3,
       "imgUrl": "https://pm1.aminoapps.com/6742/be770aef7171d8dffa2818fa8fdca85fd124aebbv2_00.jpg", 
       "name": "Keisuke Takahashi",
       "car": "Mazda FD3S RX-7 Type R",
       "description": "An ex-bosozoku gang member, he was introduced to street racing by his brother Ryosuke and joined his team, the Akagi RedSuns."
     },
     {
+      "carId": 4,
       "imgUrl": "https://s4.anilist.co/file/anilistcdn/character/large/b2820-QtJ4afUnTjzw.png", 
       "name": "Bunta Fujiwara",
       "car": "Subaru Impreza WRX STi Type R Version V",
       "description": "Bunta was the original driver of the mysterious 'white ghost of Akina' AE86 Sprinter Trueno that holds the record of the fastest downhill time at Akina."
+    },
+
+    {
+      "carId": 5,
+      "imgUrl": "https://pbs.twimg.com/profile_images/3218790950/881d72afaed6a528c67470604675723a_400x400.jpeg", 
+      "name": "Itsuki Takeuchi",
+      "car": "Toyota Sprinter Levin AE85",
+      "description": "Best friend of Tak and comic relief through the whole series."
+    },
+    {
+      "carId": 6,
+      "imgUrl": "https://m.media-amazon.com/images/M/MV5BMjEyNjc2NTcyOF5BMl5BanBnXkFtZTgwNzQ2MjY1MjE@._V1_.jpg", 
+      "name": "Koichiro Iketani",
+      "car": "Nissan S13 Silvia",
+      "description": "Leader of the Akina Speed Stars."
+    },
+    {
+      "carId": 7,
+      "imgUrl": "https://i.ytimg.com/vi/6Tv8VCfk-zo/maxresdefault.jpg", 
+      "name": "Shingo Shoji",
+      "car": "Honda Civic EG6",
+      "description": "Bunta was the original driver of the mysterious 'white ghost of Akina' AE86 Sprinter Trueno that holds the record of the fastest downhill time at Akina."
+    },
+    {
+      "carId": 8,
+      "imgUrl": "https://i.pinimg.com/736x/a7/79/c9/a779c9254f490808dc2a6165371c684b.jpg", 
+      "name": "Mako Sato",
+      "car": "Nissan 240sx Silvia (Sileighty)",
+      "description": "Mako is one half of the duo called Impact Blue along with Sayuki her navigator. Impact Blue's home course is Usui."
     }
   ]
 }
